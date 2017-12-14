@@ -88,10 +88,11 @@ li {
   padding: 15px;
 }
 
-.and {
-  background-repeat: no-repeat;
-  background-position: center;
+.a {
   background-size: contain;
+  padding: 0;
+  margin: 0;
+  object-position: center center;
 }
 
 .curly {
@@ -100,11 +101,10 @@ li {
   background-repeat: no-repeat;
 }
 
-.a {
+.and {
+  background-repeat: no-repeat;
+  background-position: center;
   background-size: contain;
-  padding: 0;
-  margin: 0;
-  object-position: center center;
 }
 
 p {
