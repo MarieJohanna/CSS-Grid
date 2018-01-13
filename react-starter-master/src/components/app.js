@@ -17,14 +17,14 @@ class App extends React.Component {
               </p>
             </span>
           </li>
-          <li className="wide tall a" style={{ backgroundImage: `url(${a})`}} />
-          <li className="tall curly" style={{ backgroundImage: `url(${curly})`}} />
-          <li className="and" style={{ backgroundImage: `url(${and})`}} />
+          <li className="wide tall a" style={{ backgroundImage: `url(${a})` }} />
+          <li className="tall curly" style={{ backgroundImage: `url(${curly})` }} />
+          <li className="and" style={{ backgroundImage: `url(${and})` }} />
           <li>
             <span className="text-container-1">
               <h4>USAGE</h4>
               <p>/ Apple’s iOS interface
-              / NYC’s MTA & Chicago's
+              / NYC’s MTA & Chicago&apos;s
               Transit Authority signage /
               NASA Space Shuttle orbiter
               </p>
@@ -71,10 +71,11 @@ class App extends React.Component {
             <span className="text-container-1">
               <h4>HELVETICA - THE MOVIE</h4>
               <p>/ documentary by Gary Hustwit <br />
-                / released for Helvetica's 50th birthday (2007)
+                / released for Helvetica&apos;s 50th birthday (2007)
               </p>
             </span>
           </li>
+          <li className="tablet" />
         </ul>
       </div>
     )
